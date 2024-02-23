@@ -1,0 +1,40 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  
+  .footer-social p {
+    margin: 0 0 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover i {
+    color: #ffcc00;
+  }
+  
